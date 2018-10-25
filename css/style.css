@@ -1588,6 +1588,8 @@ a:hover .tooltip{
     font-weight: normal;
     white-space: nowrap;
     letter-spacing: 0.8px;
+    background: white;
+    opacity: 0.7;
   }
 
   .btn:hover{
