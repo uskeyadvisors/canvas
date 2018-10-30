@@ -41,7 +41,7 @@
 <body id="ip-container">
 
   <!-- initial header -->
-  <header class="ip-header">
+  <!-- <header class="ip-header">
     <div class="ip-logo">
       <img src="images/logo.png" alt="logo">
     </div>
@@ -51,7 +51,7 @@
         <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
       </svg>
     </div>
-  </header>
+  </header> -->
 
 <nav class="navbar navbar-light">
   <form class="form-inline">
@@ -417,7 +417,6 @@
 
               </div>
               <div class="col-md-2 col-sm-3 col-xs-4">
-                                <p>($2,143 per ft2)</p>
 
                 <!-- - - - - - - - - - - - - - Project - - - - - - - - - - - - - - - - -->
 
@@ -764,9 +763,7 @@
               <div class="price-section">
                 <span>Start at:</span>
                 <h2 class="price-numb">$396,200</h2>
-<!--                 <p>($2,143 per ft2)</p>
- -->              </div>
-
+           </div>
               </div>
               <div class="col-md-7 col-sm-12">
                 
@@ -781,57 +778,51 @@
 
                     </div>
 
-                  <form id="contact-form" class="contact-form style-2">
+                  <form form accept-charset="UTF-8"  class="contact-form style-2" action="https://sy417.infusionsoft.com/app/form/process/5411cdbf2945428fcae65c068b7de236" class="infusion-form" id="inf_form_5411cdbf2945428fcae65c068b7de236" method="POST">
+
+                    <input name="inf_form_xid" type="hidden" value="5411cdbf2945428fcae65c068b7de236" />
+                    <input name="inf_form_name" type="hidden" value="Atrium English" />
+                    <input name="infusionsoft_version" type="hidden" value="1.70.0.69994" />
               
                     <div class="form-row">
                       <div class="form-col-2">
+                          <div class="infusion-field">
+
                         
-                        <input type="text" name="cf-name" placeholder="First Name*">
+                        <input class="infusion-field-input" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" />
+                        </div>
 
                       </div>
                         <div class="form-col-2">
-                        
-                        <input type="text" name="cf-name" placeholder="Last Name*">
+                            <div class="infusion-field">
+
+                          <input class="infusion-field-input" id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" />
+</div>
 
                       </div>
                       <div class="form-col-4">
-                        
-                        <input type="text" name="cf-email" placeholder="Email*">
+                          <div class="infusion-field">
 
+                        
+                        <input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" />
+                          </div>
                       </div>
                     </div>
 
                     <div class="form-row">
                       <div class="form-col-2">
-                        
-<!--                         <input type="text" placeholder="Phone">
- -->
                       </div>
-                      <div class="form-col-2">
-                        
+                      <div class="form-col-2">                     
                         <div class="input-wrapper">
-
-<!--                           <span>Are you <br> a broker?</span>
-
-                          <input type="radio" name="radio-1" checked id="radio-1">
-                          <label for="radio-1">Yes</label>
-
-                          <input type="radio" name="radio-1" id="radio-2">
-                          <label for="radio-2">No</label> -->
-
                         </div>
                       </div>
                     </div>
-
                     <div class="form-row">
                       <div class="form-col">
-                        
-<!--                         <textarea name="cf-message" rows="2" placeholder="Message"></textarea>
- -->
                       </div>
                     </div>
 
-                    <button type="submit" class="btn style-3" data-type="submit">Send Inquiry</button>
+                    <button class="btn style-3" type="submit">Submit</button>
                     <p class="text-size-small2">Fields marked with * are required.</p>
 
                   </form>
@@ -853,6 +844,7 @@
         </div>
 
       </div>
+      
 
       <!-- Google map -->
       <div class="page-section-4">
@@ -896,6 +888,9 @@
   <script src="plugins/classie.js"></script>
   <script src="plugins/pathLoader.js"></script>
   <script src="plugins/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="https://sy417.infusionsoft.com/app/webTracking/getTrackingCode"></script>
+  <script type="text/javascript" src="https://sy417.infusionsoft.com/app/timezone/timezoneInputJs?xid=5411cdbf2945428fcae65c068b7de236"></script>
+  
 
   <!-- JS theme files
   ============================================ -->
